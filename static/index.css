@@ -3,10 +3,10 @@
     background:
       radial-gradient(ellipse at 15% -10%, rgba(230,199,126,0.16), transparent 55%),
       var(--deep-green-2);
-    padding: 76px 0 0;
     color: #F3ECDD;
     position: relative;
-    height: 150vh;
+    padding: 76px 0 80px;
+    min-height: 100vh;
   }
   .hero-grid{
     display: grid;
@@ -360,8 +360,9 @@
     }
   }
   @media (max-width: 600px){
-    .hero{
-      height: 230vh;
+    .hero {
+        padding: 50px 0 60px;
+        min-height: auto;
     }
     .hero h1{ 
       font-size: 32px; 
@@ -376,3 +377,76 @@
       grid-template-columns: 1fr; 
     }
   }
+   @media (max-width: 480px) {
+    .wrap {
+        padding: 0 16px;
+    }
+    .hero {
+        padding: 40px 0 50px;
+    }
+    .hero h1 {
+        font-size: 28px;
+        line-height: 1.35;
+    }
+    .hero p.lead {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .quote-card {
+        margin-top: 22px;
+        padding-right: 12px;
+        font-size: 13px;
+    }
+    .search-card {
+        margin-top: 35px;
+        padding: 18px 14px;
+    }
+    .search-tabs {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .search-tabs button {
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+    .search-fields {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .search-fields .btn-gold {
+        width: 100%;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .stat {
+        padding: 20px 8px;
+    }
+    .stat .num {
+        font-size: 26px;
+    }
+    .stat .label {
+        font-size: 12px;
+    }
+    section {
+        padding: 55px 0;
+    }
+    .section-head {
+        margin-bottom: 30px;
+    }
+    .section-head h2 {
+        font-size: 25px;
+    }
+    .section-head p {
+        font-size: 14px;
+    }
+    .step {
+        padding: 22px 18px;
+    }
+    .cta {
+        padding: 35px 20px;
+    }
+    .cta h2 {
+        font-size: 23px;
+    }
+}
