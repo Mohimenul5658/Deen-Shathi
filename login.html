@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>লগইন — দ্বীনসাথী</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@500;600;700&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/login.css">
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="mark">☾</span>
+      দ্বীনসাথী
+    </a>
+    <a href="index.html" class="back-link">← হোমে ফিরে যান</a>
+  </div>
+</header>
+
+<div class="auth-shell">
+  <div class="auth-visual">
+    <div class="auth-visual-inner">
+      <div class="frame">
+        <div class="glyph">۞</div>
+        <h3>স্বাগতম দ্বীনসাথীতে</h3>
+        <p class="small">আপনার একাউন্টে প্রবেশ করে বায়োডাটা দেখুন ও যোগাযোগ শুরু করুন</p>
+      </div>
+      <div class="quote">
+        যে ব্যক্তি বিয়ে করলো, সে তার দ্বীনের অর্ধেক পূর্ণ করে ফেললো।
+        <span>— বায়হাকী, শু'আবুল ঈমান</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="auth-form-side">
+    <div class="auth-box">
+      <div class="motif-row"><span class="diamond"></span><span class="dash"></span><span class="eyebrow">লগইন</span></div>
+      <h1>আপনার একাউন্টে প্রবেশ করুন</h1>
+      <p class="sub">বায়োডাটা দেখতে ও অভিভাবকের সাথে যোগাযোগ করতে লগইন করুন</p>
+
+      <form id="login-form">
+        <div class="field">
+          <label for="login-id">মোবাইল নম্বর অথবা ইমেইল</label>
+          <div class="field-input">
+            <span class="ic">☎</span>
+            <input type="text" id="login-id" name="login-id" placeholder="01XXXXXXXXX অথবা you@example.com" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="password">পাসওয়ার্ড</label>
+          <div class="field-input">
+            <span class="ic">🔒</span>
+            <input type="password" id="password" name="password" placeholder="আপনার পাসওয়ার্ড দিন" required>
+            <button type="button" id="toggle-pw">দেখুন</button>
+          </div>
+        </div>
+
+        <div class="row-between">
+          <label class="remember">
+            <input type="checkbox">
+            মনে রাখুন
+          </label>
+          <a href="#" class="forgot">পাসওয়ার্ড ভুলে গেছেন?</a>
+        </div>
+
+        <button type="submit" class="btn-gold">লগইন করুন</button>
+      </form>
+
+      <div class="divider">অথবা</div>
+
+      <button class="btn-outline">📱 মোবাইল OTP দিয়ে লগইন করুন</button>
+
+      <p class="switch-line">এখনো একাউন্ট তৈরি করেননি? <a href="index.html">বায়োডাটা তৈরি করুন</a></p>
+    </div>
+  </div>
+</div>
+
+
+<script src="static/script.js"></script>
+</body>
+</html>
