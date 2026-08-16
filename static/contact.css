@@ -268,3 +268,122 @@
        grid-template-columns: 1fr; 
       }
   }
+@media (max-width: 480px) {
+    .wrap {
+        padding: 0 16px;
+    }
+    .page-hero {
+        padding: 45px 0 50px;
+    }
+    .page-hero h1 {
+        font-size: 25px;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+    .page-hero p {
+        font-size: 13.5px;
+        margin-top: 12px;
+    }
+    section {
+        padding: 55px 0;
+    }
+    .section-head {
+        margin-bottom: 30px;
+    }
+    .section-head h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .section-head p {
+        font-size: 13.5px;
+        margin-top: 10px;
+    }
+    .info-grid {
+        gap: 15px;
+        margin-bottom: 45px;
+    }
+    .info-card {
+        padding: 22px 16px;
+    }
+    .info-card .glyph {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .info-card h4 {
+        font-size: 15px;
+    }
+    .info-card p {
+        font-size: 13px;
+    }
+    .contact-split {
+        gap: 35px;
+    }
+    .contact-side h2 {
+        font-size: 24px;
+    }
+    .contact-side p {
+        font-size: 14px;
+    }
+    .contact-side .quote-card {
+        margin-top: 22px;
+        padding-right: 12px;
+        font-size: 13px;
+    }
+    .social-row {
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .social-row a {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+    .form-card {
+        padding: 20px 14px;
+        border-radius: 10px;
+    }
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .field {
+        margin-bottom: 15px;
+    }
+    .field label {
+        font-size: 12px;
+    }
+    .field input,
+    .field textarea {
+        padding: 10px 11px;
+        font-size: 13px;
+    }
+    .field textarea {
+        min-height: 110px;
+    }
+    .form-card .btn-gold {
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    .form-note {
+        font-size: 11.5px;
+        margin-top: 10px;
+    }
+    .faq-item {
+        padding: 16px 0;
+    }
+    .faq-item summary {
+        font-size: 14px;
+        line-height: 1.5;
+        gap: 12px;
+    }
+    .faq-item summary::after {
+        margin-right: 5px;
+        font-size: 18px;
+    }
+    .faq-item p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
