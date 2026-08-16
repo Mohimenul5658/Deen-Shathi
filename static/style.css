@@ -13,8 +13,12 @@
     --radius: 14px;
   }
 
-  *{ box-sizing: border-box; }
-  html{ scroll-behavior: smooth; }
+  *{ 
+    box-sizing: border-box; 
+  }
+  html{ 
+    scroll-behavior: smooth; 
+  }
   body{
     margin:0;
     background: var(--cream);
@@ -182,7 +186,12 @@
 }
 
   /*  footer  */
-  footer{ background: var(--deep-green-2); color: #C9C2AB; padding: 60px 0 26px; margin-top: 40px; }
+  footer{ 
+    background: var(--deep-green-2); 
+    color: #C9C2AB; 
+    padding: 60px 0 26px; 
+    margin-top: 40px; 
+  }
   .footer-grid{
     display:grid;
     grid-template-columns: 1.4fr 1fr 1fr 1fr;
@@ -190,16 +199,34 @@
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(230,199,126,0.14);
   }
-  .footer-grid h4{ color:#fff; font-size:14.5px; margin-bottom:16px; }
-  .footer-grid li{ margin-bottom:10px; font-size: 13.5px; }
-  .footer-grid a:hover{ color: var(--gold-soft); }
-  .footer-brand p{ font-size: 13.5px; margin-top: 12px; max-width: 280px; color:#A79E85; }
+  .footer-grid h4{ 
+    color:#fff; 
+    font-size:14.5px; 
+    margin-bottom:16px; 
+  }
+  .footer-grid li{
+     margin-bottom:10px; 
+     font-size: 13.5px; 
+    }
+  .footer-grid a:hover{ 
+    color: var(--gold-soft); 
+  }
+  .footer-brand p{ 
+    font-size: 13.5px; 
+    margin-top: 12px; 
+    max-width: 280px; 
+    color:#A79E85; 
+  }
   .footer-bottom{
-    display:flex; justify-content:space-between; align-items:center;
-    padding-top: 22px; font-size: 12.5px; color:#8B8471;
+    display:flex; 
+    justify-content:space-between; 
+    align-items:center;
+    padding-top: 22px; 
+    font-size: 12.5px; 
+    color:#8B8471;
   }
 
-  /* ===== responsive ===== */
+  /*  responsive */
   @media (max-width: 980px){
     nav, 
     .nav-actions .btn-ghost, 
@@ -281,3 +308,80 @@
       grid-template-columns: 1fr; 
     }
   }
+  @media (max-width: 480px) {
+    .wrap {
+        padding: 0 16px;
+    }
+    header {
+        padding: 14px 0;
+    }
+    .brand {
+        font-size: 19px;
+        gap: 7px;
+    }
+    .brand .mark {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .menu-toggle {
+        font-size: 24px;
+    }
+    header nav {
+        width: 250px;
+    }
+    header nav ul {
+        gap: 20px;
+    }
+    header nav ul li a {
+        font-size: 16px;
+    }
+    .hero {
+        padding: 50px 0;
+    }
+    .hero h1 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    .lead {
+        font-size: 15px;
+    }
+    .search-card {
+        padding: 16px;
+    }
+    .search-tabs {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .search-tabs button {
+        width: 100%;
+    }
+    .search-fields {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .stat {
+        padding: 15px 8px;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+    .section-head h2 {
+        font-size: 25px;
+    }
+    .section-head p {
+        font-size: 14px;
+    }
+    footer {
+        padding: 40px 0 20px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+}
