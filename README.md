@@ -58,6 +58,7 @@ If you are developing a production application, we recommend using TypeScript wi
 - CSS3
 - JavaScript
 - Google Fonts
+- react
 
 ---
 
@@ -74,26 +75,3 @@ Mobile device-এ:
 
 ---
 
-## Project Structure
-
-```text
-DeenSathi/
-│
-├── index.html
-├── about-us.html
-├── how-it-works.html
-├── contact.html
-├── login.html
-├── create-biodata.html
-│
-└── static/
-    ├── style.css
-    ├── index.css
-    ├── about.css
-    ├── works.css
-    ├── contact.css
-    ├── login.css
-    ├── biodata.css
-    └── script.js
-
->>>>>>> 79a48015a8880541a90e0f52ee0d8e70adbd7011
