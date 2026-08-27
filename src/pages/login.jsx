@@ -8,14 +8,12 @@ function Login() {
     <div>
       <header>
         <div className="wrap">
-          <a href="/home" className="brand">
-            <Link to="/" className="brand">
+          <Link to="/home" className="brand">
               <img src={logo} alt="Deenshathi" />
-            </Link>
-          </a>
-          <a href="/home" className="back-link">
+          </Link>
+          <Link to="/home" className="back-link">
             ← হোমে ফিরে যান
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -102,7 +100,7 @@ function Login() {
 
             <p className="switch-line">
               এখনো একাউন্ট তৈরি করেননি?{" "}
-              <a href="index.html">বায়োডাটা তৈরি করুন</a>
+              <Link to="/home">বায়োডাটা তৈরি করুন</Link>
             </p>
           </div>
         </div>
